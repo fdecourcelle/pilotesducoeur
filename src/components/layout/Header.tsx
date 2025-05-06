@@ -36,7 +36,7 @@ const Header: React.FC = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-primary-800 shadow-lg py-2' : 'bg-transparent py-4'}`}>
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="flex items-center">
-          <img src="/logo.png" alt="PILOTES DU CŒUR" className="h-12 w-auto" />
+          <img src="logo.png" alt="PILOTES DU CŒUR" className="h-12 w-auto" />
         </a>
         
         {/* Mobile menu button */}

@@ -8,4 +8,9 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   base: '/pilotesducoeur/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true
+  }
 });

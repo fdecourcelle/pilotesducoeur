@@ -43,7 +43,7 @@ const HomeSection: React.FC = () => {
           <div className="text-center md:text-left">
             <div className="mb-8 fade-in">
               <img 
-                src="/logo.png" 
+                src="logo.png" 
                 alt="PILOTES DU CŒUR Logo" 
                 className="h-32 md:h-40 w-auto mx-auto md:mx-0"
               />
@@ -58,7 +58,7 @@ const HomeSection: React.FC = () => {
               <a href="#sponsorship" className="btn btn-accent">
                 Devenir sponsor
               </a>
-              <a href="#about" className="btn border-2 border-white hover:bg-white hover:text-primary-800">
+              <a href="#about" className="btn border-2 border-white hover:bg-white hover:text-primary-800"> 
                 Découvrir notre mission
               </a>
             </div>

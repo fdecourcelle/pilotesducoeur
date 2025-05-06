@@ -196,8 +196,8 @@ const ContactSection: React.FC = () => {
                   <Phone className="h-6 w-6 mr-4 text-accent-400 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold mb-1">Téléphone</h4>
-                    <a href="tel:+33600000000" className="hover:text-accent-400 transition-colors">
-                      +33 6 00 00 00 00
+                    <a href="tel:06 76 05 30 34" className="hover:text-accent-400 transition-colors">
+                      06 76 05 30 34
                     </a>
                   </div>
                 </div>
@@ -207,8 +207,8 @@ const ContactSection: React.FC = () => {
                   <div>
                     <h4 className="font-semibold mb-1">Siège social</h4>
                     <address className="not-italic">
-                      123 Rue du Sport Automobile<br />
-                      69000 Lyon, France
+                      271 Chemin de Marsou<br />
+                      07340 THORRENC, France
                     </address>
                   </div>
                 </div>
@@ -238,18 +238,7 @@ const ContactSection: React.FC = () => {
                 </div>
               </div>
               
-              <div className="mt-8">
-                <h3 className="text-xl font-semibold mb-4">Site officiel</h3>
-                <a 
-                  href="http://www.pilotesducoeur.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="btn btn-accent inline-flex items-center"
-                >
-                  <span className="mr-2">www.pilotesducoeur.com</span>
-                  <Send size={16} />
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>

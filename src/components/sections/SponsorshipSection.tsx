@@ -34,7 +34,7 @@ const SponsorPack: React.FC<SponsorPackProps> = ({ title, price, benefits, highl
       </ul>
       
       <a 
-        href="#contact" 
+        href="https://www.helloasso.com/associations/pilotes-du-coeur/formulaires/1" 
         className={`w-full text-center py-3 px-4 rounded-md font-semibold transition-colors ${
           highlight 
             ? 'bg-accent-400 text-white hover:bg-accent-500' 

@@ -5,6 +5,7 @@ import HomeSection from './components/sections/HomeSection';
 import AboutSection from './components/sections/AboutSection';
 import CalendarSection from './components/sections/CalendarSection';
 import SponsorshipSection from './components/sections/SponsorshipSection';
+import PartnersSection from './components/sections/PartnersSection';
 import ContactSection from './components/sections/ContactSection';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <AboutSection />
         <CalendarSection />
         <SponsorshipSection />
+        <PartnersSection />
         <ContactSection />
       </main>
       

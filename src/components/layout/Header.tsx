@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       setIsScrolled(window.scrollY > 50);
       
       // Find which section is currently visible
-      const sections = ['home', 'about', 'calendar', 'sponsorship', 'contact'];
+      const sections = ['home', 'about', 'calendar', 'sponsorship', 'partners', 'contact'];
       const current = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -54,6 +54,7 @@ const Header: React.FC = () => {
           <a href="#about" className={`nav-link ${activeSection === 'about' ? 'active' : ''}`}>Association & Pilote</a>
           <a href="#calendar" className={`nav-link ${activeSection === 'calendar' ? 'active' : ''}`}>Calendrier</a>
           <a href="#sponsorship" className={`nav-link ${activeSection === 'sponsorship' ? 'active' : ''}`}>Sponsoring</a>
+          <a href="#partners" className={`nav-link ${activeSection === 'partners' ? 'active' : ''}`}>Partenaires</a>
           <a href="#contact" className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`}>Contact</a>
         </nav>
       </div>
@@ -65,6 +66,7 @@ const Header: React.FC = () => {
           <a href="#about" className={`nav-link ${activeSection === 'about' ? 'active' : ''}`} onClick={closeMenu}>Association & Pilote</a>
           <a href="#calendar" className={`nav-link ${activeSection === 'calendar' ? 'active' : ''}`} onClick={closeMenu}>Calendrier</a>
           <a href="#sponsorship" className={`nav-link ${activeSection === 'sponsorship' ? 'active' : ''}`} onClick={closeMenu}>Sponsoring</a>
+          <a href="#partners" className={`nav-link ${activeSection === 'partners' ? 'active' : ''}`} onClick={closeMenu}>Partenaires</a>
           <a href="#contact" className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`} onClick={closeMenu}>Contact</a>
         </nav>
       </div>

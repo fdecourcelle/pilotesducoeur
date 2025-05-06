@@ -75,14 +75,14 @@ const CalendarSection: React.FC = () => {
             Ces fonds permettront de financer des équipements adaptés et des activités 
             inclusives pour les personnes en situation de handicap.
           </p>
-          <a href="#sponsorship" className="btn btn-accent mt-6">Contribuer</a>
+          <a href="https://www.helloasso.com/associations/pilotes-du-coeur/formulaires/1" className="btn btn-accent mt-6">Contribuer</a>
         </div>
         
         {/* Events */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="fade-in" style={{transitionDelay: '600ms'}}>
             <Event 
-              date="15-16 Mai 2025"
+              date="13-15 Juin 2025"
               title="Course de Côte du Beaujolais"
               location="Beaujolais, France"
               type="race"
@@ -92,7 +92,7 @@ const CalendarSection: React.FC = () => {
           
           <div className="fade-in" style={{transitionDelay: '700ms'}}>
             <Event 
-              date="12 Juin 2025"
+              date="Juin 2025"
               title="Journée Solidaire"
               location="L'Arche de la Vallée"
               type="solidarity"
@@ -102,7 +102,7 @@ const CalendarSection: React.FC = () => {
           
           <div className="fade-in" style={{transitionDelay: '800ms'}}>
             <Event 
-              date="20-21 Juillet 2025"
+              date="12-14 Septembre 2025"
               title="Course de Côte de Limonest"
               location="Limonest, France"
               type="race"
@@ -112,9 +112,9 @@ const CalendarSection: React.FC = () => {
           
           <div className="fade-in" style={{transitionDelay: '900ms'}}>
             <Event 
-              date="8 Septembre 2025"
+              date="Decembre 2025"
               title="Gala de charité"
-              location="Lyon, France"
+              location="Thorrenc, France"
               type="solidarity"
               description="Soirée de gala avec nos sponsors et partenaires pour célébrer la saison et remettre officiellement les fonds collectés à L'Arche de la Vallée."
             />

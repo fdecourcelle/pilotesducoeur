@@ -12,15 +12,7 @@ const Footer: React.FC = () => {
               PILOTES <span className="text-accent-400">DU CŒUR</span>
             </h2>
             <p className="mb-4 text-gray-300">Une passion automobile au service de la solidarité</p>
-            <a 
-              href="http://www.pilotesducoeur.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center text-accent-400 hover:text-accent-300 transition-colors"
-            >
-              <span className="mr-2">Site officiel</span>
-              <ExternalLink size={16} />
-            </a>
+           
           </div>
           
           {/* Quick links */}
@@ -55,7 +47,7 @@ const Footer: React.FC = () => {
               </a>
               <a href="tel:+33600000000" className="flex items-center text-gray-300 hover:text-accent-400 transition-colors">
                 <Phone size={18} className="mr-2" />
-                <span>+33 6 00 00 00 00</span>
+                <span>06 76 05 30 34</span>
               </a>
             </div>
             <div className="flex space-x-4">
